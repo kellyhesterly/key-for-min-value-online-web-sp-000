@@ -3,7 +3,7 @@
 def key_for_min_value(people)
   people.each do |name, amount|
     if people.empty?
-      nil
+      return nil
     elsif
       amount == 10
       return name
