@@ -6,7 +6,7 @@ def key_for_min_value(people)
       return name
     else
       amount == 10
-      return naem
+      return name
     end
   end
 end
