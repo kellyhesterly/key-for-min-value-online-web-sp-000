@@ -7,7 +7,7 @@ def key_for_min_value(people)
   elsif amount == 1
       return name
   elsif people.empty?
-      return !{}
+      return nil
     end
   end
 end
