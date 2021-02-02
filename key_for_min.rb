@@ -8,7 +8,7 @@ def key_for_min_value(people)
       amount == 10
       return name
     else
-      people = []
+      people == {}
       return nil
     end
   end
