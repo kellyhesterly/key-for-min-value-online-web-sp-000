@@ -8,6 +8,8 @@ def key_for_min_value(people)
       return name
   elsif people.empty?
       return nil
+    else
+      nil
     end
   end
 end
