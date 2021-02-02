@@ -4,6 +4,9 @@ def key_for_min_value(people)
   people.each do |name, amount|
     if amount == 1
       return name
+    else
+      amount == 10
+      return naem
     end
   end
 end
