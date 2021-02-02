@@ -6,7 +6,7 @@ def key_for_min_value(people)
       return name
   elsif amount == 1
       return name
-  elsif people.blanks?
+  elsif people.blank?
     return nil
     end
   end
